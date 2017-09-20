@@ -50,14 +50,14 @@
     </RelativeLayout> -->
     
     
-    <com.jxy.safemanager.activity.view.SettingItemView
+    <com.jxy.safemanager.view.SettingItemView
         android:id="@+id/siv_update"
         android:layout_height="wrap_content"
         android:layout_width="match_parent">
         
     </com.jxy.safemanager.activity.view.SettingItemView>
     
-    <com.jxy.safemanager.activity.view.SettingItemView
+    <com.jxy.safemanager.view.SettingItemView
         android:layout_height="wrap_content"
         android:layout_width="match_parent">
         

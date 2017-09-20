@@ -40,7 +40,7 @@
         android:focusableInTouchMode="true"
         android:marqueeRepeatLimit="marquee_forever"
         /> -->
-    <com.jxy.safemanager.activity.view.FocusTextView
+    <com.jxy.safemanager.view.FocusTextView
         android:text="原有空間不足以滿足我的需求，需要自定義控件，以防下次重複寫 (重寫，讓他獲取焦點)"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"

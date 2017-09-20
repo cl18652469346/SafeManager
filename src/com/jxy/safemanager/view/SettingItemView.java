@@ -1,4 +1,4 @@
-package com.jxy.safemanager.activity.view;
+package com.jxy.safemanager.view;
 
 import com.jxy.safemanager.R;
 

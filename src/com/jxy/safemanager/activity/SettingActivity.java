@@ -1,7 +1,7 @@
 package com.jxy.safemanager.activity;
 
 import com.jxy.safemanager.R;
-import com.jxy.safemanager.activity.view.SettingItemView;
+import com.jxy.safemanager.view.SettingItemView;
 
 import android.app.Activity;
 import android.os.Bundle;
