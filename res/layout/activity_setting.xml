@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+    <TextView 
+        style="@style/TitleStyle"
+        android:text="设置中心"
+        />
+    
+    
+    <!-- 将以下的相对布局抽取到一个单独的类中处理，以后只需要在布局中国添加此类 -->
+    <!-- <RelativeLayout  
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="自动更新设置"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tv_des"
+            android:layout_below="@id/tv_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="自动更新已经关闭"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+        
+        <CheckBox
+            android:id="@+id/cb_box"
+            android:layout_alignParentRight="true" 
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+        
+        <View 
+            android:layout_below="@id/tv_des"
+            android:background="#000"
+            android:layout_height="1dp"
+            android:layout_width="match_parent"/>
+    </RelativeLayout> -->
+    
+    
+    <com.jxy.safemanager.activity.view.SettingItemView
+        android:id="@+id/siv_update"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        
+    </com.jxy.safemanager.activity.view.SettingItemView>
+    
+    <com.jxy.safemanager.activity.view.SettingItemView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        
+    </com.jxy.safemanager.activity.view.SettingItemView>
+    
+    
+</LinearLayout>

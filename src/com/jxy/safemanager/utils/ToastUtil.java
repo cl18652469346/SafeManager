@@ -1,0 +1,17 @@
+package com.jxy.safemanager.utils;
+
+import android.content.Context;
+import android.widget.Toast;
+
+public class ToastUtil {
+	/**
+	 * @param ctx
+	 *            上下文环境
+	 * @param msg
+	 *            打印的文本内容
+	 */
+	public static void show(Context ctx, String msg) {
+		// Toast.makeText(context, text, duration).show();
+		Toast.makeText(ctx, msg, 0).show();
+	}
+}
